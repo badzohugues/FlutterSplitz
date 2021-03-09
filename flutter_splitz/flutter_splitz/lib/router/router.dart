@@ -5,7 +5,7 @@ import 'package:flutter_splitz/ui/home/screen_host.dart';
 import 'package:flutter_splitz/ui/movies/fragment_movies.dart';
 import 'package:flutter_splitz/ui/splash/splash_screen.dart';
 
-class Router {
+class TmDbRouter {
 
   static const String ROOT = "mazarslive://app";
   static const String HOME = ROOT + "/home";

@@ -61,7 +61,7 @@ class _SplashScreenState extends State<SplashScreen> {
     var _duration = new Duration(seconds: 2);
     return new Timer(_duration, () {
       isLoaderVisible = false;
-      Navigator.of(context).pushReplacementNamed(Router.HOME); // To show next page without keeping this page in stack
+      Navigator.of(context).pushReplacementNamed(TmDbRouter.HOME); // To show next page without keeping this page in stack
     });
   }
 

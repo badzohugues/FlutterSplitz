@@ -17,7 +17,7 @@ class _SplitzBottomNavigationBarState extends State<SplitzBottomNavigationBar> {
   int _currentIndex = 0;
   OnBottomItemTap listener;
   List<String> titles = ["Home", "Movies", "Favorites", "Search"];
-  List<String> routes = [Router.HOME, Router.MOVIES, Router.FAVORITES, Router.FAVORITES];
+  List<String> routes = [TmDbRouter.HOME, TmDbRouter.MOVIES, TmDbRouter.FAVORITES, TmDbRouter.FAVORITES];
 
   _SplitzBottomNavigationBarState(OnBottomItemTap listener) {
     this.listener = listener;

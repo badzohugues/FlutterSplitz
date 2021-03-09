@@ -42,7 +42,7 @@ class _ScreenHostState extends State<ScreenHost> implements OnBottomItemTap {
   @override
   onBottomItemTap(String title, String route) {
     setState(() {
-      currentFragment = Router.getWidgetByRoute(route);
+      currentFragment = TmDbRouter.getWidgetByRoute(route);
       print("Route: " + route);
     });
   }

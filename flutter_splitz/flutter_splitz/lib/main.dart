@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       initialRoute: '/',
-      routes: Router().call(context),
+      routes: TmDbRouter().call(context),
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: SplitzThemeData().call(),
